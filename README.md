@@ -22,7 +22,7 @@ Davi Ramos Silva - RM: 571744
 
 ## Como executar
 
-Requisitos: Python 3.8 ou superior. Não usa bibliotecas externas.
+Requisitos: Python 3.8 ou superior.
 
 ```bash
 git clone <link-do-repositorio>
@@ -47,7 +47,7 @@ citizen-assist-ai/
     └── atendimentos.csv         # exportação (gerada pelo programa)
 ```
 
-Composição: `Assistente` → `base: BaseConhecimento` → `orientacoes: [Orientacao, ...]`.
+Composição: `Assistente` => `base: BaseConhecimento` => `orientacoes: [Orientacao, ...]`.
 
 ## Regra de pontuação usada
 
@@ -66,7 +66,7 @@ A pergunta e os textos da base são normalizados (minúsculas, sem acentos, sem 
 
 `buscar()` devolve uma lista de tuplas `(pontos, orientacao)` da maior para a menor pontuação. O assistente mostra a melhor orientação e até duas alternativas.
 
-**Exemplo:** "Como faço a vacina da gripe?" → `vacina da gripe` (+3), `gripe` (+3), "vacina" no título (+1), "gripe" no título (+1) = **8 pontos, confiança ALTA**.
+**Exemplo:** "Como faço a vacina da gripe?" => `vacina da gripe` (+3), `gripe` (+3), "vacina" no título (+1), "gripe" no título (+1) = **8 pontos, confiança ALTA**.
 
 **Ajustes feitos em relação à regra básica:**
 - A palavra-chave só vale se aparecer como palavra inteira (ex.: `sus` não casa dentro de outra palavra).
@@ -104,3 +104,45 @@ Todas as orientações foram conferidas em fontes do Ministério da Saúde (gov.
 - O bloqueio de dados pessoais só detecta 8 ou mais dígitos e "@". Um nome digitado sem números passaria.
 - O assistente não substitui orientação médica nem a avaliação da equipe da UBS.
 - Vacinas que não fazem parte da rotina do SUS para idosos em geral (por exemplo, as oferecidas só em clínicas particulares) não estão na base.
+
+# Teste com usuários
+
+## Procedimento
+- Público do Citizen Assist AI: pessoas idosas (60+), familiares e cuidadores.
+- Foram 3 participantes anônimos (P1, P2 e P3), com 4 atendimentos cada: 12 atendimentos iniciais.
+- Após a análise, foi executada uma melhoria na orientação de ID 13 e um reteste adicional.
+- Nenhum nome, CPF, telefone ou e-mail foi incluído.
+
+## Indicadores dos 12 atendimentos iniciais
+
+| Indicador | Resultado |
+|---|---|
+| Atendimentos | 12 |
+| Participantes | 3 |
+| Resposta encontrada | 75.0% |
+| Taxa de acerto — ajudou | 58.3% |
+| Tempo médio para encontrar (apenas encontrados) | 26.6 s |
+| Tentativas por atendimento | 1.0 |
+| Facilidade média (1 a 5) | 4.3 |
+
+## Dúvidas sem solução no teste inicial
+- Como completar as doses da hepatite B?\n- Existe vacinação em casa para quem não consegue sair?\n- Como vejo o comprovante das vacinas?\n- Idoso pode tomar vacina contra herpes zoster pelo SUS?\n- Tem vacina contra dengue para pessoas idosas?\n
+
+## Melhoria aplicada
+Na orientação de ID 13 — **Ver minha carteira de vacinação no celular** — foi acrescentada a palavra-chave `comprovante das vacinas`. A dúvida “Como vejo o comprovante das vacinas?” não foi encontrada na rodada inicial. Após a inclusão da palavra-chave, o reteste retornou a orientação de ID 13 e foi marcado como útil.
+
+## Resultado após o reteste
+- Atendimentos iniciais: 12.
+- Reteste adicional: 1.
+- Total simulado com reteste: 13.
+- Resposta encontrada: 76.9%.
+- Taxa de acerto — ajudou: 61.5%.
+- Tempo médio para encontrar: 25.8 s.
+- Facilidade média: 4.3/5.
+
+## Arquivos
+- `data/historico.json`: 12 atendimentos simulados + 1 reteste.
+- `data/atendimentos.csv`: exportação dos mesmos registros.
+- `alteracoes/palavras_chave_id13.json`: fragmento da melhoria proposta.
+- `evidencias/relatorio_indicadores.json`: indicadores calculados.
+- `evidencias/casos_de_teste.csv`: resumo dos casos simulados.
