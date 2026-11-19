@@ -126,7 +126,7 @@ Todas as orientações foram conferidas em fontes do Ministério da Saúde (gov.
 | Facilidade média (1 a 5) | 4.3 |
 
 ## Dúvidas sem solução no teste inicial
-- Como completar as doses da hepatite B?<br> Existe vacinação em casa para quem não consegue sair?<br> Como vejo o comprovante das vacinas?<br> Idoso pode tomar vacina contra herpes zoster pelo SUS?<br> Tem vacina contra dengue para pessoas idosas?<br>
+- Como completar as doses da hepatite B?<br>- Existe vacinação em casa para quem não consegue sair?<br>- Como vejo o comprovante das vacinas?<br>- Idoso pode tomar vacina contra herpes zoster pelo SUS?<br>- Tem vacina contra dengue para pessoas idosas?<br>
 
 ## Melhoria aplicada
 Na orientação de ID 13 — **Ver minha carteira de vacinação no celular** — foi acrescentada a palavra-chave `comprovante das vacinas`. A dúvida “Como vejo o comprovante das vacinas?” não foi encontrada na rodada inicial. Após a inclusão da palavra-chave, o reteste retornou a orientação de ID 13 e foi marcado como útil.
