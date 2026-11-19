@@ -1,0 +1,14 @@
+﻿data,sessao,origem,pergunta,orientacao_id,encontrou,ajudou,tentativas,tempo_segundos,nota_facilidade
+2026-11-19 09:01:10,2026-11-19 09:00:00,pergunta,Como funciona a vacina da gripe para idosos?,1,True,True,1,18.0,4
+2026-11-19 09:03:20,2026-11-19 09:00:00,pergunta,Preciso tomar vacina contra covid?,2,True,True,1,22.0,4
+2026-11-19 09:05:30,2026-11-19 09:00:00,pergunta,Quando devo reforçar a vacina de tétano?,3,True,True,1,25.0,4
+2026-11-19 09:07:40,2026-11-19 09:00:00,pergunta,Como completar as doses da hepatite B?,4,True,False,1,31.0,4
+2026-11-19 09:31:10,2026-11-19 09:30:00,pergunta,A vacina pneumo 20 está disponível para idosos?,5,True,True,1,28.0,5
+2026-11-19 09:33:20,2026-11-19 09:30:00,pergunta,Idoso pode tomar vacina da febre amarela?,6,True,True,1,34.0,5
+2026-11-19 09:35:30,2026-11-19 09:30:00,pergunta,Onde posso tomar vacina de graça?,9,True,True,1,16.0,5
+2026-11-19 09:37:40,2026-11-19 09:30:00,pergunta,Quais documentos preciso levar para vacinar?,10,True,True,1,20.0,5
+2026-11-19 10:01:10,2026-11-19 10:00:00,pergunta,Existe vacinação em casa para quem não consegue sair?,12,True,False,1,45.0,4
+2026-11-19 10:03:20,2026-11-19 10:00:00,pergunta,Como vejo o comprovante das vacinas?,,False,False,1,12.0,4
+2026-11-19 10:05:30,2026-11-19 10:00:00,pergunta,Idoso pode tomar vacina contra herpes zoster pelo SUS?,,False,False,1,9.0,4
+2026-11-19 10:07:40,2026-11-19 10:00:00,pergunta,Tem vacina contra dengue para pessoas idosas?,,False,False,1,11.0,4
+2026-11-19 10:10:00,2026-11-19 10:00:00,pergunta,Como vejo o comprovante das vacinas?,13,True,True,1,19.0,4
