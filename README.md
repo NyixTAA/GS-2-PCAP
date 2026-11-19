@@ -6,7 +6,7 @@ Assistente de terminal, feito em Python, que responde dúvidas sobre **vacinaç�
 
 ## Integrantes
 
-Lucas Galle Melchior - RM: 574027
+Lucas Galle Melchior - RM: 574027<br>
 Davi Ramos Silva - RM: 571744
 
 ## Público e problema
