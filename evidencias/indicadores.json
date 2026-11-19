@@ -1,0 +1,20 @@
+{
+  "historico_inicial": "vazio",
+  "registros_anteriores": 0,
+  "atendimentos_iniciais_simulados": 12,
+  "reteste_pos_melhoria": 1,
+  "total_registros": 13,
+  "participantes_ficticios": 3,
+  "resposta_encontrada_pct": 76.9,
+  "taxa_acerto_ajudou_pct": 61.5,
+  "tempo_medio_para_encontrar_segundos": 25.8,
+  "tentativas_por_atendimento": 1.0,
+  "facilidade_media_1_a_5": 4.3,
+  "sessoes_com_avaliacao": 3,
+  "duvidas_sem_solucao_apos_reteste": [
+    "Como completar as doses da hepatite B?",
+    "Existe vacinação em casa para quem não consegue sair?",
+    "Idoso pode tomar vacina contra herpes zoster pelo SUS?",
+    "Tem vacina contra dengue para pessoas idosas?"
+  ]
+}
