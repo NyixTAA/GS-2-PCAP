@@ -1,0 +1,50 @@
+[
+  {
+    "data": "2026-11-18 22:31:23",
+    "sessao": "2026-11-18 22:30:40",
+    "origem": "categoria",
+    "pergunta": "Onde e como se vacinar > Posso tomar a vacina da gripe junto com a da Covid-19?",
+    "orientacao_id": 11,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 14.4,
+    "nota_facilidade": null
+  },
+  {
+    "data": "2026-11-18 22:31:33",
+    "sessao": "2026-11-18 22:30:40",
+    "origem": "categoria",
+    "pergunta": "Onde e como se vacinar > Vacinação para quem não consegue ir até a UBS",
+    "orientacao_id": 12,
+    "encontrou": true,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo_segundos": 10.0,
+    "nota_facilidade": null
+  },
+  {
+    "data": "2026-11-18 22:31:51",
+    "sessao": "2026-11-18 22:30:40",
+    "origem": "categoria",
+    "pergunta": "Onde e como se vacinar > O que levar para tomar a vacina",
+    "orientacao_id": 10,
+    "encontrou": true,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo_segundos": 18.6,
+    "nota_facilidade": null
+  },
+  {
+    "data": "2026-11-18 22:33:24",
+    "sessao": "2026-11-18 22:30:40",
+    "origem": "categoria",
+    "pergunta": "Onde e como se vacinar > Vacinação para quem não consegue ir até a UBS",
+    "orientacao_id": 12,
+    "encontrou": true,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo_segundos": 92.6,
+    "nota_facilidade": null
+  }
+]

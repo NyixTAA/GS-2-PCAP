@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "categoria": "Vacinas",
+    "titulo": "Vacina da gripe (influenza) para idosos",
+    "palavras_chave": ["gripe", "influenza", "vacina da gripe", "vacina gripe", "campanha da gripe"],
+    "resposta": "Quem tem 60 anos ou mais deve tomar 1 dose todo ano. A vacina é gratuita nas UBS. A campanha de 2026 começou em 28 de março e seguiu até 30 de maio nas regiões Nordeste, Centro-Oeste, Sul e Sudeste. No Norte do país, ela acontece no segundo semestre. Pergunte na sua UBS se ainda há doses.",
+    "documentos": ["Documento que comprove a idade"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/marco/dia-d-campanha-nacional-de-vacinacao-contra-a-influenza-comeca-neste-sabado-28",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 2,
+    "categoria": "Vacinas",
+    "titulo": "Vacina da Covid-19 para idosos",
+    "palavras_chave": ["covid", "covid 19", "coronavirus", "vacina da covid", "vacina covid"],
+    "resposta": "Quem tem 60 anos ou mais deve tomar 1 dose a cada 6 meses, não importa quantas doses já tomou antes. A vacina é oferecida no SUS.",
+    "documentos": ["Documento que comprove a idade", "Carteira de vacinação, se tiver"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico-nacional-de-vacinacao-idoso",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 3,
+    "categoria": "Vacinas",
+    "titulo": "Vacina contra tétano e difteria (dT) para idosos",
+    "palavras_chave": ["tetano", "difteria", "dt", "dupla adulto", "vacina do tetano", "reforco do tetano"],
+    "resposta": "Quem já tomou as 3 doses do esquema básico precisa de 1 reforço a cada 10 anos. Se houver risco de tétano ou difteria, o reforço vem antes, depois de 5 anos. Quem nunca completou as 3 doses deve começar ou completar o esquema. A UBS confere o seu histórico.",
+    "documentos": ["Documento que comprove a idade", "Carteira de vacinação, se tiver"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico-nacional-de-vacinacao-idoso",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 4,
+    "categoria": "Vacinas",
+    "titulo": "Vacina contra hepatite B para idosos",
+    "palavras_chave": ["hepatite b", "hepatite", "vacina da hepatite", "hepatite 3 doses"],
+    "resposta": "Quem não tem o esquema completo deve começar ou completar 3 doses. O intervalo recomendado é de 1 mês entre a 1ª e a 2ª dose e de 6 meses entre a 1ª e a 3ª dose.",
+    "documentos": ["Documento que comprove a idade", "Carteira de vacinação, se tiver"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico-nacional-de-vacinacao-idoso",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 5,
+    "categoria": "Vacinas",
+    "titulo": "Vacina contra pneumonia (Pneumo 20) para idosos",
+    "palavras_chave": ["pneumonia", "pneumo", "pneumo 20", "pneumococica", "vacina da pneumonia"],
+    "resposta": "A Pneumo 20 está disponível no SUS para quem tem 85 anos ou mais, sem precisar de receita médica. Quem tem de 60 a 84 anos e está acamado ou institucionalizado, com condições clínicas especiais, também pode receber pela estratégia especial. O número de doses depende das vacinas contra pneumonia que a pessoa já tomou. A UBS confere isso.",
+    "documentos": ["Documento que comprove a idade"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/nova-vacina-para-idosos-ministerio-da-saude-vai-ofertar-pneumo20-para-quem-tem-mais-de-85-anos",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 6,
+    "categoria": "Vacinas",
+    "titulo": "Vacina da febre amarela para idosos",
+    "palavras_chave": ["febre amarela", "amarela", "vacina da febre amarela", "viajar"],
+    "resposta": "Para quem tem 60 anos ou mais, a vacina só é indicada em situações excepcionais: pessoas que nunca foram vacinadas e moram ou vão viajar para uma área com transmissão ativa da doença. Antes, a equipe de saúde avalia cada caso. Quem vai viajar deve se vacinar pelo menos 10 dias antes.",
+    "documentos": ["Documento que comprove a idade", "Carteira de vacinação, se tiver"],
+    "onde": "Unidade Básica de Saúde (UBS), com avaliação da equipe de saúde",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico-nacional-de-vacinacao-idoso",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 7,
+    "categoria": "Vacinas",
+    "titulo": "Sarampo, caxumba, rubéola e catapora: o idoso precisa?",
+    "palavras_chave": ["sarampo", "caxumba", "rubeola", "triplice viral", "catapora", "varicela"],
+    "resposta": "No calendário do idoso, a tríplice viral (sarampo, caxumba e rubéola) é indicada só para trabalhadores de saúde. A vacina da catapora (varicela) é indicada só para indígenas e trabalhadores de saúde que nunca foram vacinados e nunca tiveram a doença. Para os demais idosos, essas vacinas não fazem parte da rotina.",
+    "documentos": ["Documento que comprove a idade", "Carteira de vacinação, se tiver"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico-nacional-de-vacinacao-idoso",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 8,
+    "categoria": "Vacinas",
+    "titulo": "Quais vacinas o idoso deve tomar?",
+    "palavras_chave": ["quais vacinas", "qual vacina", "que vacinas", "vacinas do idoso", "vacinas para idosos", "calendario de vacinacao", "calendario", "vacinas da terceira idade"],
+    "resposta": "O calendário nacional para quem tem 60 anos ou mais inclui: gripe (1 dose por ano), Covid-19 (1 dose a cada 6 meses), dT contra tétano e difteria (reforço a cada 10 anos) e hepatite B (3 doses, se o esquema estiver incompleto). Em casos específicos há também pneumonia, febre amarela, tríplice viral e varicela. Veja cada vacina no menu de categorias.",
+    "documentos": ["Documento que comprove a idade", "Carteira de vacinação, se tiver"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico-nacional-de-vacinacao-idoso",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 9,
+    "categoria": "Onde e como se vacinar",
+    "titulo": "Onde tomar as vacinas do idoso",
+    "palavras_chave": ["onde tomar", "onde tomo", "onde posso tomar", "onde vacinar", "ubs", "posto de saude", "vacina gratuita", "gratuita", "posto"],
+    "resposta": "As vacinas do Calendário Nacional são oferecidas pelo SUS, de graça, nas Unidades Básicas de Saúde (UBS). Procure a UBS mais próxima de você. Horários e vacinas disponíveis podem variar de cidade para cidade.",
+    "documentos": ["Documento que comprove a idade"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/vacinacao",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 10,
+    "categoria": "Onde e como se vacinar",
+    "titulo": "O que levar para tomar a vacina",
+    "palavras_chave": ["o que levar", "levar", "documento", "documentos", "receita", "preciso de receita"],
+    "resposta": "Leve um documento que comprove a sua idade. Para a Pneumo 20, o Ministério da Saúde informa que não é preciso receita médica. Cada cidade pode ter regras próprias, por isso confirme na UBS antes de ir.",
+    "documentos": ["Documento que comprove a idade"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/nova-vacina-para-idosos-ministerio-da-saude-vai-ofertar-pneumo20-para-quem-tem-mais-de-85-anos",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 11,
+    "categoria": "Onde e como se vacinar",
+    "titulo": "Posso tomar a vacina da gripe junto com a da Covid-19?",
+    "palavras_chave": ["junto", "junto com", "gripe e covid", "covid e gripe", "juntas", "mesmo dia", "ao mesmo tempo", "duas vacinas", "simultanea"],
+    "resposta": "Sim. O Ministério da Saúde informa que a vacina da gripe pode ser aplicada no mesmo dia que outras vacinas do Calendário Nacional, como a da Covid-19.",
+    "documentos": ["Documento que comprove a idade"],
+    "onde": "Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/marco/dia-d-campanha-nacional-de-vacinacao-contra-a-influenza-comeca-neste-sabado-28",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 12,
+    "categoria": "Onde e como se vacinar",
+    "titulo": "Vacinação para quem não consegue ir até a UBS",
+    "palavras_chave": ["acamado", "em casa", "domicilio", "vacina em casa", "nao consigo sair", "dificuldade de locomocao"],
+    "resposta": "Para a Pneumo 20, o Ministério da Saúde prevê vacinação nas unidades de saúde, em ações fora delas ou na casa da pessoa. A busca ativa deve dar prioridade a quem tem dificuldade de se locomover ou é frágil. Procure a UBS da sua região e pergunte se existe vacinação em casa na sua cidade.",
+    "documentos": ["Documento que comprove a idade"],
+    "onde": "Unidade Básica de Saúde (UBS) da sua região",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/nova-vacina-para-idosos-ministerio-da-saude-vai-ofertar-pneumo20-para-quem-tem-mais-de-85-anos",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 13,
+    "categoria": "Comprovante e canais de ajuda",
+    "titulo": "Ver minha carteira de vacinação no celular",
+    "palavras_chave": ["carteira de vacinacao", "caderneta", "carteirinha", "meu sus digital", "comprovante de vacina", "historico de vacinas"],
+    "resposta": "No aplicativo Meu SUS Digital (ou no site meususdigital.saude.gov.br) você vê as vacinas registradas, acessa a carteira digital e emite certificados. É preciso entrar com a conta Gov.br.",
+    "documentos": ["Conta Gov.br", "Celular ou computador com internet"],
+    "onde": "Aplicativo Meu SUS Digital ou site meususdigital.saude.gov.br",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/outubro/quer-consultar-suas-vacinas-saiba-como-acessar-a-carteira-de-vacinacao-pelo-meu-sus-digital",
+    "verificado_em": "2026-11-18"
+  },
+  {
+    "id": 14,
+    "categoria": "Comprovante e canais de ajuda",
+    "titulo": "Tirar dúvidas ou reclamar: Ouvidoria do SUS (136)",
+    "palavras_chave": ["136", "ouvidoria", "reclamar", "reclamacao", "telefone do sus", "falar com o ministerio"],
+    "resposta": "A Ouvidoria-Geral do SUS atende pelo telefone 136. É um canal do Ministério da Saúde para dúvidas, sugestões e reclamações sobre os serviços de saúde, inclusive vacinação.",
+    "documentos": ["Nenhum documento é necessário para ligar"],
+    "onde": "Telefone 136 (OuvSUS)",
+    "fonte": "https://www.gov.br/saude/pt-br/vacinacao",
+    "verificado_em": "2026-11-18"
+  }
+]
